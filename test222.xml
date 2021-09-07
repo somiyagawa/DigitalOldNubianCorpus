@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ONDC.xsl"?>
+
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>In Venerabilem Crucem Sermo</title>
+                <author>Pseudo-Chrysostomos</author>
+                <funder>Japan Society for the Promotion of Science, KAKENHI, Grant-in-Aid for
+                    Research Activity Start-up</funder>
+                <respStmt>
+                    <name>Vincent W.J. van Gerven Oei</name>
+                    <resp>transcription, annotation, and translation</resp>
+                </respStmt>
+                <respStmt>
+                    <name>Alenxandros Tsakos</name>
+                    <resp>transcription, annotation, and translation</resp>
+                </respStmt>
+                <respStmt>
+                    <name>So Miyagawa</name>
+                    <resp>TEI mark-up</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Old Nubian Corpus Project (ONCP) </authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY  4.0</licence>
+                </availability>
+                <idno type="DBMNT">1385</idno>
+                <idno type="TM">369927</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <msName>unknown</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Parchment</material>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Nobadia</origPlace>
+                            <origDate notBefore="1000" notAfter="1199" precision="unknown">1000 -
+                                1199</origDate>
+                        </origin>
+                        <provenance>
+                            <p>
+                                <placeName type="ancient"/>
+                                <placeName type="modern">Serra-East</placeName>
+                                <placeName type="ancient" subtype="region">Nobadia</placeName>
+                                <placeName type="modern" subtype="region">Sudan</placeName>
+                            </p>
+                        </provenance>
+                    </history>
+                    <msPart>
+                        <msIdentifier><repository>Sudan National Museum, Khartoum</repository>
+                            <collection>unknown</collection>
+                            <idno>unknown</idno>
+                        </msIdentifier>
+                        <msContents><msItem><locus scheme="MS name" from="1" to="100">1-100</locus>
+                            <textLang>Old Nubian</textLang>
+                        </msItem></msContents>
+                    </msPart>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="onw">Old Nubian</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change n="1.0.0" when="2021-02-06" resp="So Miyagawa"></change>
+        </revisionDesc>
+    </teiHeader>
+<text>
+    <body>
+        <ab xml:id="SC1">
+            <s type="orig">ⲭ̅ⲡ̅ⲑ̅ ⲥⲩⲛ [ⲑ̅ⲱ̅] ⲣⲁϩ̄ⲟⲙⲉ
+            </s>
+            <s type="trans" xml:lang="en">‘Michael. With (God), I have begun [ἄrxoμai].’</s>
+            <note>The first Greek word of the sermon following the present one in the
+                Sinai ms. is ἀrxόμeja. Browne reads [ⲭ̅]ⲡ̅ⲑ̅ ⲥⲩⲛ [ⲡ]ⲣⲁϩ̄ⲟⲙⲉ·, Miqaήl, sύμpraxόn
+                μoi. See Browne<note place="bottom" n="1">Gerald M. Browne, “Notes on Old Nubian Texts (IV–V),” Sudan Texts Bulletin 7 (1985):
+                    1.</note> and Browne<note place="bottom" n="2">Gerald M. Browne, Old Nubian Textual Criticism, Beiträge zur Sudanforschung Beiheft
+                        8 (Vienna: Verein der Förderer der Sudanforschung, 1998), 27.</note>.</note>
+        </ab>
+        <ab xml:id="SC2">
+            <s type="orig">ⳟⲥ̄ⲉⲛⲟⲕⲗ̄ ⲓ̈ⲱⲁⲛⲥⲏ ⲕⲟⲗⲥ̄ⲧⲁⲛ[ⲧ]ⲓ̣[ⲛⲟ]ⲡⲟⲗⲛ̄ ⲁⲣⲭⲏⲉ̄ⲡ̣[ⲓ]ⲥⲕⲟⲃⲟⲥⲁⲇⲉⲛⲟ̣ⲩ̣
+                ⲟⲛ ⲁⲕⲗ̄ ⳟⲁⲡⲕ̄[ⲟⲁⲇ]ⲉⲛⲁⲛⲛⲁ [ⲥ̄ⲧ]ⲁⲩⲣ[ⲟ]ⲥⲟⲩ ⳟⲟⲕⲕⲟ̣ⲛ̣ⲕ̣ⲓ̣ⲛ ⲟⲣⲱⲥ̣[ⲉⲛ ⲥⲁⲗⲁⲗⲟ·] ⲧⲗ̄ⲗⲛ̣̄
+                ⲧⲱⲕ̣[ⲛ̄]ⲁⲩⲉ̄ⲗⲟ̣ⲕ̣ⲟ̣ ⲁ̄ⲙ̣ⲏ̣ⲛ̣ⲣⲉ·</s>
+            <s type="parse">ⲟⲛ-ⲧⲁⲕ-ⲣ-ⲁ-ⲅⲟⲩⲉ-̄ⲕⲉ ⲙ-ⲛⲁ ⲗ-̣̄ⲇⲛ̄ⲛⲉ· ⲙⲛⲁ ⲡⲉⲥⲁⲣⲣⲉ·</s>
+            <s type="roman">ŋis-enok-il iōansē kolistantinopol-in arkhēepiskobos-a-denal(notOU?) on akil ŋapi-ko-a-denan-na istaurosou ŋok-kon-k-in orōse-n sal-a-lo till-in tōkinaue-loko amēn</s>
+            <s type="gloss">holy-COMP-DET John Constantinople-GEN, archbishop-PRED-CONJ and mouth gold-ADJ-PRED-CONJ-GEN cross glory-ADJ-?-GEN praise-GEN word-PRED-FOC God-GEN peace-LOC.through amen</s>
+            <s type="trans" xml:lang="eng">‘(This is the word) of praise of the Holy Cross of the holiest John, Archbishop of Constantinople and golden-mouthed. Through the peace of God, Amen.’</s>
+            <note/>
+        </ab>
+        <ab xml:id="SC3">
+            <s type="orig">ⲟⲛⲧⲁⲕⲣⲁⲅⲟⲩⲉ̄ⲕⲉ ⲙⲛⲁ ⲗ̣̄ⲇⲛ̄ⲛⲉ· ⲙⲛⲁ ⲡⲉⲥⲁⲣⲣⲉ·</s>
+            <s type="parse">ⲟⲛ-ⲧⲁⲕ-ⲣ-ⲁ-ⲅⲟⲩⲉ-̄ⲕⲉ ⲙ-ⲛⲁ ⲗ-̄ⲇⲛ̄ⲛⲉ ⲙⲛⲁ ⲡⲉⲥ-ⲁⲣ-ⲣ-ⲉⲣⲉ·</s>
+            <s type="roman">on-tak-r-a-goue-ke mn-a il-d-in-n-e mn-a pes-ar-r-e</s>
+            <s type="gloss">love-PASS-PRS-PRED-PL.PRED-2PL what-QUOT say-INTEN-CAP-PRS-1SG.PRED what-QUOT say-INTEN-PRS-1SG.PRED</s>
+            <s type="trans" xml:lang="eng">‘Beloved! What could I say? What shall I speak?’</s>
+            <note>Notes The scribe misinterprets aorist subjunctive lalήsw as future indicative,
+                translating with ⲡⲉⲥⲁⲣⲣⲉ.</note>
+        </ab>
+        <ab xml:id="SC4">
+            <s type="orig">ⳟⲁⲉⲓⲁ̄ ⲟⲩⲕ ⲟ̄ⲕⲓⳝⲁⲣⲣⲉ·</s>
+            <s type="parse">ⳟⲁⲉⲓ-ⲁ̄ ⲟⲩ-ⲕ ⲟ̄ⲕ-ⲓⳝ-ⲁⲣ-ⲣ-ⲉ</s>
+            <s type="roman">ŋaei-a ou-k ok-ij-ar-r-e</s>
+            <s type="gloss">who-QUOT 2PL-ACC call-PLACT-INTEN-PRS-1SG.PRED</s>
+            <s type="trans" xml:lang="en">‘What shall I call you?’</s>
+            <note>Notes The following affirmative forms in -ⲙⲁ are all dependent on the verb
+                ⲟ̄ⲕⲓⳝⲁⲣⲣⲉ.</note>
+        </ab>
+        <ab xml:id="SC5">
+            <s type="orig">ⲧⲓⲕⲁⲛⲉⲅⲟⲩⲉ̄ⲙⲁ ⲥⲉⲛⲁ· ⲙⲉⲛⲉⲛⲛ[ⲟⲛ] ⲕⲟⲣⲟⲥⲉⲅⲟⲩⲉ̄ⲙⲁ·</s>
+        </ab>
+    </body>
+</text>
+</TEI>

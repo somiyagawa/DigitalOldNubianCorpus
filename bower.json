@@ -1,0 +1,28 @@
+{
+  "name": "leipzig",
+  "version": "0.8.1",
+  "homepage": "https://bdchauvette.github.io/leipzig.js/",
+  "authors": [
+    "Ben Chauvette <bdchauvette@gmail.com>"
+  ],
+  "description": "Interlinear glossing for the browser",
+  "main": "dist/leipzig.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "glossing",
+    "interlinear glossing",
+    "language",
+    "linguistics"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ]
+}
