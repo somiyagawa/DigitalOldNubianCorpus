@@ -1,4 +1,4 @@
-# DigitalOldNubianCorpus
+# Digital Interliear Corpus of Old Nubian
 
 - The digital old nubian corpus is under construction. 
 - The project has been just commenced recently. 
