@@ -1,4 +1,4 @@
-# Digital Interliear Corpus of Old Nubian
+# Digital Interliear Text Corpus of Old Nubian (DITCON)
 
 - The digital old nubian corpus is under construction. 
 - The project has been just commenced recently. 
